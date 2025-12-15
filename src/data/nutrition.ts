@@ -1,7 +1,7 @@
 export const nutrition = [
   {
     name: 'Calories',
-    amout:
+    amount:
     {
       value: 277,
       unit: 'kcal'
@@ -9,7 +9,7 @@ export const nutrition = [
   },
   {
     name: 'Carbs',
-    amout:
+    amount:
     {
       value: 0,
       unit: 'g'
@@ -17,7 +17,7 @@ export const nutrition = [
   },
   {
     name: 'Protein',
-    amout:
+    amount:
     {
       value: 20,
       unit: 'g'
@@ -25,7 +25,7 @@ export const nutrition = [
   },
   {
     name: 'Fat',
-    amout:
+    amount:
     {
       value: 22,
       unit: 'g'
