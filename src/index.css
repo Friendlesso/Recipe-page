@@ -1,13 +1,46 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'YoungSerif';
+  src: url('./assets/fonts/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'OutfitNormal';
+  src: url('./assets/fonts/Outfit-VariableFont_wght.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'OutfitSemiBold';
+  src: url('./assets/fonts/Outfit-VariableFont_wght.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'OutfitBold';
+  src: url('./assets/fonts/Outfit-VariableFont_wght.ttf');
+  font-weight: 700;
+}
+
 :root {
+
+  /* Body Background Color */
+  --body-bg-color: hsl(30, 54%, 90%);
+
   /* Color for Headings/Nutritions/and lists */
   --text-brown: hsl(14, 45%, 36%);
+
+  --text-stone: hsl(24, 5%, 18%);
+  --text-rock: hsl(30, 10%, 34%);
+
 }
+
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: var(--body-bg-color);
 }

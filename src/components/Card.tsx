@@ -6,7 +6,7 @@ import { Preparation } from "./Preparation";
 
 export function Card() {
   return(
-    <div>
+    <div className="flex flex-col max-w-[100vw] w-4xl bg-white rounded-[1.250rem] p-8">
       <Description />
       <Preparation />
       <Ingredients />
