@@ -42,14 +42,23 @@
       --ruby-text-color: hsl(332, 51%, 32%);
       --ruby-bg-color: hsl(330, 100%, 98%);
 
+  /* Border between sections color */
+    --border-color: hsl(30, 18%, 87%);
 
 }
 
 
 body {
   display: flex;
+  min-height: 100vh;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start;
+  padding: 6rem 1rem;
   background-color: var(--body-bg-color);
+}
+
+@media (max-width: 860px) {
+  body {
+    padding: 0px;
+  }
 }
