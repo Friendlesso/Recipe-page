@@ -31,8 +31,17 @@
   /* Color for Headings/Nutritions/and lists */
   --text-brown: hsl(14, 45%, 36%);
 
-  --text-stone: hsl(24, 5%, 18%);
-  --text-rock: hsl(30, 10%, 34%);
+  /* Color for Paragraphs */
+  --light-text-color: hsl(30, 10%, 34%);
+
+  /* Color for the Main Heading and Bold text */
+  --strong-text-color: hsl(24, 5%, 18%);
+
+  /* Preperation Section colors */
+    /* Prep Heading color */
+      --ruby-text-color: hsl(332, 51%, 32%);
+      --ruby-bg-color: hsl(330, 100%, 98%);
+
 
 }
 

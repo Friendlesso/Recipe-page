@@ -9,8 +9,8 @@ export function Description() {
 
   return (
     <div className="flex flex-col gap-4 font-">
-      <h1 className="font-[YoungSerif] text-4xl text-(--text-stone)">{text.title}</h1>
-      <p className="font-[OutfitNormal] text-(--text-rock)">{text.description}</p>
+      <h1 className="font-[YoungSerif] text-4xl text-(--strong-text-color)">{text.title}</h1>
+      <p className="font-[OutfitNormal] text-(--light-text-color)">{text.description}</p>
     </div>
   )
 }
