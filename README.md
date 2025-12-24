@@ -8,13 +8,9 @@ The page focuses on readability, visual hierarchy, and responsive layout, ensuri
 
 ### Screenshots
 
-#### Image of the Desktop Design
+#### Image of the Design
 
 ![](./public/PageDesktop.png)
-
-#### Image of the Mobile Design
-
-![](./public/PageMobile.png)
 
 ### Data Structure & Scalability
 
